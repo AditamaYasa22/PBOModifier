@@ -1,0 +1,22 @@
+Selain Modifier Access, ada beberapa Modifier non-access yang dapat digunakan pada kelas, properti, 
+dan metode dalam Java.
+1. Final:
+Pada kelas: Menandakan kelas tersebut tidak dapat diwariskan.
+Pada properti: Menandakan nilai properti tidak dapat diubah setelah diinisialisasi.
+Pada metode: Menandakan metode tersebut tidak dapat di-override oleh subclass.
+
+2. Abstract:
+Pada kelas: Menandakan kelas tersebut adalah kelas abstrak dan tidak dapat diinstansiasi.
+Pada metode: Menandakan metode tersebut tidak memiliki implementasi dan harus di-override oleh subclass.
+
+3. Static:
+Pada kelas: Menandakan kelas tersebut hanya memiliki satu instance yang dibagikan oleh semua object.
+Pada properti: Menandakan properti tersebut terkait dengan kelas itu sendiri, bukan dengan instance individual.
+Pada metode: Menandakan metode tersebut dapat dipanggil tanpa perlu membuat instance kelas terlebih dahulu.
+
+4. Transient:
+Pada properti: Menandakan nilai properti tersebut tidak akan disimpan ketika object diserialisasi.
+
+5. Volatile:
+Pada properti: Menandakan nilai properti tersebut dapat berubah secara asynchronous dan harus dibaca ulang 
+setiap kali digunakan.

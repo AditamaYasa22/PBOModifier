@@ -1,0 +1,6 @@
+Modifier Access dalam Java menentukan tingkat aksesibilitas suatu kelas, properti, atau metode. 
+Ada empat jenis modifier access:
+1. Public: Memberikan akses penuh kepada semua kelas.
+2. Protected: Memberikan akses kepada kelas itu sendiri dan subclassnya.
+3. Default (Package-private): Memberikan akses kepada kelas itu sendiri dan kelas lain dalam package yang sama.
+4. Private: Memberikan akses kepada kelas itu sendiri saja.
